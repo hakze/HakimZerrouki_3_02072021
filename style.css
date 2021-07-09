@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bloc_page {
+  
+}
+
+.header {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.logo_header{
+    
+}
+
+.localisation {
+    display: grid;
+    justify-content: center;
+    background: #eaeaea;
+    border-top: 2px solid rgb(207, 207, 207);
+    box-shadow: inset 0px 0px 4px rgb(207, 207, 207);
+}
+
+.rechercher_localisation {
+    font-weight: bold;
+}
+.rechercher_localisation i {
+    margin-right: 15px;
+}
+
+.trouver_restaurant {
+    display: grid;
+    justify-content: center;
+    background: #f6f6f6;
+    padding: 45px;
+}
+
+.btn_restaurant {
+    background: #FF79DA;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    width: 223px;
+    padding: 15px;
+    left: 100Px;
+    top: 0px;
+}
+
+.titre_menu {
+    display: grid;
+    justify-content: center;
+}
+
+.fonctionnement {
+    display: grid;
+    justify-content: center;
+}
+
+.bloc_fonctionnement button {
+    font-weight: bold;
+    border: none;
+    background: #f6f6f6 ;
+}
+
+.bloc_fonctionnement .fas {
+    color: #696969;
+}
+
+.choisir_restaurant,.composez_menu,.degustez_au_restaurant {
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    background: #f6f6f6;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 8px rgb(207, 207, 207);
+}
+
+.numero {
+    background-color: #9356DC;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 2px 7px;
+    margin-left: -30px;
+    margin-right: 20px;
+}
+
+.restaurants {
+    display: grid;
+    justify-content: center;
+    color: #000;
+    background: #f6f6f6;
+}
+
+.titre_restaurants {
+    display: grid;
+    justify-content: center;
+}
+
+.fig {
+    border-radius: 20px;
+    box-shadow: 0px 3px 8px rgb(207, 207, 207);
+    border: none;
+    border-radius: 20Px;
+}
+
+.menu_restaurants img {
+    width: 300px;
+    height: 200px;
+    border: none;
+    border-radius: 20px 20px 0 0;
+}
+
+.legend_1,.legend_2,.legend_3,.legend_4,.new {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px 0px 10px;
+}
+
+.new{
+    width: 66px;
+    justify-content: center;
+    background: #99E2D0;
+}
+footer{
+    background-color: #000;
+    border: solid;
+}
+
+.logo_footer {
+    font-weight: bold;
+}
+.footer_link .fas{
+    margin-right: 10px;
+}
+
+footer li {
+    
+    list-style-type: none;   
+}
+
+footer a{
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
