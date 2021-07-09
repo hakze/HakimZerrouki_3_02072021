@@ -44,27 +44,41 @@ body {
     color: #fff;
     border: none;
     border-radius: 20px;
-    position: relative;
-    width: 223px;
     padding: 15px;
-    left: 100Px;
-    top: 0px;
+    width: 223px; 
+    /* position: relative;
+    left: 100Px;    */
 }
+
+/* @media  all  and ( max-width: 425px){
+    .btn_restaurant{
+        position: relative;
+        width: 223px; 
+        left: 7px;
+    }
+} */
 
 .titre_menu {
     display: grid;
     justify-content: center;
+    text-align: center;
+}
+
+.restaurants_exception {
+    text-align: center;
 }
 
 .fonctionnement {
     display: grid;
     justify-content: center;
+    padding: 20px 0px 40px 0px;
 }
 
 .bloc_fonctionnement button {
     font-weight: bold;
     border: none;
     background: #f6f6f6 ;
+    margin: 0px 40px 0px 10px;
 }
 
 .bloc_fonctionnement .fas {
@@ -76,8 +90,8 @@ body {
     border-radius: 20px;
     padding: 20px;
     background: #f6f6f6;
-    margin-bottom: 15px;
     box-shadow: 0px 3px 8px rgb(207, 207, 207);
+    margin: 0px 0px 15px 0px;
 }
 
 .numero {
@@ -87,7 +101,7 @@ body {
     text-align: center;
     padding: 2px 7px;
     margin-left: -30px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .restaurants {
@@ -98,22 +112,36 @@ body {
 }
 
 .titre_restaurants {
-    display: grid;
-    justify-content: center;
+    /* display: grid;
+    justify-content: center; */
 }
 
 .fig {
-    border-radius: 20px;
     box-shadow: 0px 3px 8px rgb(207, 207, 207);
     border: none;
-    border-radius: 20Px;
+    border-radius: 10Px;
+    margin: 0px 0px 20px 0px;
+}
+
+.insert {
+    height: 200px;
 }
 
 .menu_restaurants img {
-    width: 300px;
+    
+    width: 280px;
     height: 200px;
     border: none;
-    border-radius: 20px 20px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.new{
+    width: 66px;
+    justify-content: center;
+    background: #99E2D0;
+    POSITION: relative;
+    bottom: 192px;
+    left: 183px;
 }
 
 .legend_1,.legend_2,.legend_3,.legend_4,.new {
@@ -124,11 +152,6 @@ body {
     margin: 0px 20px 0px 10px;
 }
 
-.new{
-    width: 66px;
-    justify-content: center;
-    background: #99E2D0;
-}
 footer{
     background-color: #000;
     border: solid;
